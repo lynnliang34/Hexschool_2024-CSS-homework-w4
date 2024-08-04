@@ -1,0 +1,144 @@
+/* Banner */
+.banner {
+  background-image: url("/assets/images/home-header.png");
+  background-position: center center;
+  background-size: cover;
+  height: 787px;
+}
+
+@media screen and (max-width: 768px) {
+  .banner {
+    background-image: url("/assets/images/home-header-sm.png");
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .banner {
+    height: 396px;
+  }
+}
+
+.btn {
+  padding: 6px 12px;
+  color: #ffffff;
+  background-color: #aa0601;
+}
+
+.intro-icon {
+  width: 100px;
+  height: 100px;
+}
+
+/* Classic Series */
+.classic-img {
+  width: 336px;
+}
+
+/* Co-design */
+.co-design {
+  background-image: url("/assets/images/index-bg.png");
+  background-position: center center;
+  background-size: cover;
+  height: 608px;
+}
+
+@media screen and (max-width: 768px) {
+  .co-design {
+    background-image: url("/assets/images/index-bg-sm.png");
+    height: 960px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .co-design {
+    background-image: url("/assets/images/index-bg-sm.png");
+    height: 820px;
+  }
+}
+
+.co-design-card {
+  width: 50%;
+  background-color: #ffffff;
+}
+
+@media screen and (max-width: 768px) {
+  .co-design-card {
+    width: 100%;
+    background-color: #ffffff;
+  }
+}
+
+/* 顧客推薦 */
+.reco-card {
+  border: 1px solid #dee2e6;
+  border-radius: 4px 4px 0px 0px;
+  box-shadow: 0 2px 6px #00000029;
+}
+
+.reco-card-text {
+  height: 205px;
+}
+
+/* 聯絡我們 */
+.contact-us {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+@media screen and (max-width: 576px) {
+  .contact-us {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
+
+.contact-form {
+  width: 636px;
+}
+
+@media screen and (max-width: 768px) {
+  .contact-form {
+    width: 576px;
+  }
+}
+
+.input-style {
+  width: 100%;
+  height: 36px;
+  background-color: #fbf2f2;
+  border: 1px solid black;
+  padding-left: 12px;
+}
+
+.input-style-comment {
+  width: 100%;
+  height: 136px;
+  background-color: #fbf2f2;
+  border: 1px solid black;
+  padding: 6px 0 106px 12px;
+}
+
+.submit-style {
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #aa0601;
+  padding: 16px 176px;
+  border: 0px;
+}
+
+@media screen and (max-width: 768px) {
+  .submit-style {
+    padding: 16px 136px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .statement {
+    width: 320px;
+    margin-bottom: 24px;
+  }
+}
+
+.statement {
+  margin-bottom: 48px;
+}
