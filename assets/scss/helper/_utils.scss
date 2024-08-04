@@ -166,11 +166,11 @@
 
 /* 文字顏色 */
 .text-primary {
-  color: #aa0601;
+  color: $primary;
 }
 
 .text-secondary {
-  color: #650300;
+  color: $secondary;
 }
 
 .text-white {
@@ -183,7 +183,7 @@
 
 /* 背景色 */
 .bg-primary {
-  background-color: #aa0601;
+  background-color: $primary;
 }
 
 .bg-eggshellpink {
