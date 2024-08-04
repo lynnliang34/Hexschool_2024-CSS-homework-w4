@@ -4,16 +4,12 @@
   background-position: center center;
   background-size: cover;
   height: 787px;
-}
 
-@media screen and (max-width: 768px) {
-  .banner {
+  @include pad {
     background-image: url("/assets/images/home-header-sm.png");
   }
-}
 
-@media screen and (max-width: 576px) {
-  .banner {
+  @include mobile {
     height: 396px;
   }
 }
@@ -21,7 +17,7 @@
 .btn {
   padding: 6px 12px;
   color: #ffffff;
-  background-color: #aa0601;
+  background-color: $primary;
 }
 
 .intro-icon {
@@ -40,17 +36,13 @@
   background-position: center center;
   background-size: cover;
   height: 608px;
-}
 
-@media screen and (max-width: 768px) {
-  .co-design {
+  @include pad {
     background-image: url("/assets/images/index-bg-sm.png");
     height: 960px;
   }
-}
 
-@media screen and (max-width: 576px) {
-  .co-design {
+  @include mobile {
     background-image: url("/assets/images/index-bg-sm.png");
     height: 820px;
   }
@@ -59,10 +51,8 @@
 .co-design-card {
   width: 50%;
   background-color: #ffffff;
-}
 
-@media screen and (max-width: 768px) {
-  .co-design-card {
+  @include pad {
     width: 100%;
     background-color: #ffffff;
   }
@@ -83,10 +73,8 @@
 .contact-us {
   padding-top: 80px;
   padding-bottom: 80px;
-}
 
-@media screen and (max-width: 576px) {
-  .contact-us {
+  @include mobile {
     padding-top: 40px;
     padding-bottom: 40px;
   }
@@ -94,10 +82,8 @@
 
 .contact-form {
   width: 636px;
-}
 
-@media screen and (max-width: 768px) {
-  .contact-form {
+  @include pad {
     width: 576px;
   }
 }
@@ -121,24 +107,20 @@
 .submit-style {
   font-weight: 700;
   color: #ffffff;
-  background-color: #aa0601;
+  background-color: $primary;
   padding: 16px 176px;
   border: 0px;
-}
 
-@media screen and (max-width: 768px) {
-  .submit-style {
+  @include pad {
     padding: 16px 136px;
-  }
-}
-
-@media screen and (max-width: 576px) {
-  .statement {
-    width: 320px;
-    margin-bottom: 24px;
   }
 }
 
 .statement {
   margin-bottom: 48px;
+
+  @include mobile {
+    width: 320px;
+    margin-bottom: 24px;
+  }
 }

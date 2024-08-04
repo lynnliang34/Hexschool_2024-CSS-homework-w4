@@ -1,10 +1,15 @@
-@import "./helper/variables";
-@import "./helper/utils";
+// utils
+@import "./helper/variables.scss";
+@import "./helper/mixins.scss";
+@import "./helper/utils.scss";
 
-@import "./base/reset";
-@import "./base/base";
+// base
+@import "./base/reset.scss";
+@import "./base/base.scss";
 
+// layout
 @import "./layout/header.scss";
 @import "./layout/footer.scss";
 
+// pages
 @import "./pages/index.scss";
