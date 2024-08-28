@@ -1,12 +1,12 @@
 /* Banner */
 .banner {
-  background-image: url("../assets/images/home-header.png");
+  background-image: url("/assets/images/home-header.png");
   background-position: center center;
   background-size: cover;
   height: 787px;
 
   @include pad {
-    background-image: url("../assets/images/home-header-sm.png");
+    background-image: url("/assets/images/home-header-sm.png");
   }
 
   @include mobile {
@@ -38,12 +38,12 @@
   height: 608px;
 
   @include pad {
-    background-image: url("../assets/images/index-bg-sm.png");
+    background-image: url("/assets/images/index-bg-sm.png");
     height: 960px;
   }
 
   @include mobile {
-    background-image: url("../assets/images/index-bg-sm.png");
+    background-image: url("/assets/images/index-bg-sm.png");
     height: 820px;
   }
 }
